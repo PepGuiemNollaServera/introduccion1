@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+    <link href="css/menu.css" rel="stylesheet" >
+</head>
+<header>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">index</a></li>
+            <li id="Pulsar"><a href="registre.html">registre</a></li>
+            <li><a href="simple.html">simple</a></li>
+            <li><a href="horari.html">horari</a></li>
+            <li><a href="selector.html">selector</a></li>
+            <li><a href="tauler.html">tauler</a></li>
+            <li><a href="flexbox.html">flexbox</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1 align="center">REGISTRE</h1>
+    <form action="https://modest-meninsky-323b0f.netlify.app/registre.html" method="GET">
+        <label for="Nom">Nom:</label>
+        <input type="text" name="nom" placeholder="nom" id="Nom" required>
+    <div> 
+        <label for="llinatges">Llinatges:</label>
+        <input type="text" name="Llinatges" id="llinatges" required>
+    </div> 
+    <div> 
+        <label for="Contrasenya">Contrasenya:</label>
+        <input type="text" name="Contrasenya" id="Contrasenya" minlength="5" maxlength="10" required>
+    </div> 
+    <div> 
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+    </div> 
+    <div> 
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data" required>
+    </div> 
+    <div> 
+        <label for="home">Home</label>
+        <input type="radio" name="option" id="home"> 
+        <label for="dona">Dona</label>
+        <input type="radio" name="option" id="dona"> 
+    </div> 
+<div> 
+        <label for="acceptar">Acceptes terminis i condicions:</label>
+        <input type="checkbox" name="checkbox" id="acceptar" required>
+    </div> 
+       <div><input type="submit" name="submit"></div> 
+
+
+    </form>
+    
+</body>
+</html>

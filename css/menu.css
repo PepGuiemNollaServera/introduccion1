@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+#menu{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+#menu ul li{
+    display: table-cell;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+#menu ul li a:hover{
+    background-color: royalblue;
+}
+
+#Pulsar{
+background-color: skyblue;
+}
+

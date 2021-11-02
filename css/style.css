@@ -1,0 +1,52 @@
+.table{
+    border-spacing: 0;
+    border-width: 7px;
+}
+td{
+    text-align: center;
+    border-color: royalblue;
+}
+
+th{
+    text-align: center;
+    border-color: royalblue;
+}
+.Horari {
+background: yellow;
+text-decoration: silver;
+}
+
+.Hora{
+    background: aquamarine;
+    text-decoration: silver;
+}
+
+.SX{
+    background: violet;
+    color: green;
+}
+
+.Segu{
+    background: tomato;
+    color:white ;
+}
+
+.SOX{
+    background: greenyellow;
+    color: chocolate;
+}
+
+.AP{
+    background: orange;
+    color: brown;
+}
+
+.EI{
+    background: paleturquoise;
+    color: red;
+}
+
+.Pati{
+    background: peachpuff;
+    color: blue;
+}
