@@ -68,6 +68,7 @@ background-color: skyblue;
     
     nav ul li{
         display: list-item;
+        width: 100%;
     }
 
     
